@@ -1,0 +1,87 @@
+/* General styles */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 50px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+    font-size: 3rem;
+    color: rgba(16, 29, 214, 0.74);
+}
+
+p{
+    font-family: times;
+    font-style: italic;
+}
+
+ul,ol,dl,p {
+    font-size: 1.5rem;
+}
+
+li, p {
+    line-height: 1.5;
+}
+
+/* Unordered list styles */
+
+ul {
+    padding-left: 2rem;
+    list-style: circle black;
+}
+
+ul li {
+    padding-left: 2rem;
+    background-image: url(star.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+/* Ordered list styles */
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Description list styles */
+
+dd, dt {
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
+
+/*boxes*/
+
+.flex-container {
+    float: top;
+    display: flex;
+    flex-direction: row;   
+}
+
+#Shopping {
+    width: 35%;
+    float: left;
+    flex-grow: 1;
+    margin: 3%;
+}
+
+#desc {
+    width: 55%;
+    float: right;
+    flex-grow: 2;
+    margin: 3%;
+}
+
+
+#Recipe {
+    width: 100%;
+    float: bottom;
+    margin: 0px 30px 30px 30px;
+    clear: auto;
+}
