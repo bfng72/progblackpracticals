@@ -59,6 +59,7 @@ dt {
 /*boxes*/
 
 .flex-container {
+    width: 100%;
     float: top;
     display: flex;
     flex-direction: row;   
@@ -81,7 +82,7 @@ dt {
 
 #Recipe {
     width: 100%;
-    float: bottom;
+    float: top;
     margin: 0px 30px 30px 30px;
     clear: auto;
 }
